@@ -1,0 +1,12 @@
+#!/home/kiorky/projects/zope/minitage-0.4/bin/python
+
+import sys
+sys.path[0:0] = [
+  '/home/kiorky/projects/zope/minitage-0.4/eggs/cache/zc.buildout-1.1.1-py2.5.egg',
+  '/home/kiorky/projects/zope/minitage-0.4/eggs/cache/setuptools-0.7a1dev_r65222-py2.5.egg',
+  ]
+
+import zc.buildout.buildout
+
+if __name__ == '__main__':
+    zc.buildout.buildout.main()
