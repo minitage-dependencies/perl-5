@@ -1,0 +1,6 @@
+my $build_cache = "${buildout:directory}/cpan/cache";
+my $build_dir = "${buildout:directory}/cpan/build";
+my $cpan_home = "${buildout:directory}/cpan/packages";
+
+
+
